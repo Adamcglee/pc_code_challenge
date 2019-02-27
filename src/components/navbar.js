@@ -1,9 +1,10 @@
 import React from 'react';
+import styled from "styled-components";
 
 const NavBar = (props) => {
     return ( 
-        <div>
-            Navbar
+        <div className="navbar">
+            
         </div>
      );
 }
