@@ -17,3 +17,10 @@ svg {
         height: 15px;
       }
 }
+
+@media (max-width: 768px) {
+    .pc-logo {
+        width: 220px;
+        height: 15px;
+      }
+}
