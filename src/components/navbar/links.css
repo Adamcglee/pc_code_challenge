@@ -11,6 +11,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-left: 100px;
 }
 
 .navbar-links {
@@ -29,6 +30,11 @@
   .navbar-container li {
     font-size: 14px;
   }
+
+  .links-container {
+    margin-left: 15px;
+  }
+
   .navbar-links {
     font-weight: 300;
     padding: 0;

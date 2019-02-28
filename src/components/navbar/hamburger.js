@@ -17,7 +17,7 @@ const Hamburger = () => {
             </a>
           </li>
           <li>
-            <a href="personalcapital.com/company">About</a>
+            <a href="https://www.personalcapital.com/company">About</a>
           </li>
           <li>
             <a href="https://www.personalcapital.com/blog/">Resources</a>

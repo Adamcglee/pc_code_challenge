@@ -31,6 +31,12 @@
     border-color: #d98106;
 }
 
+@media(max-width: 1024px) {
+    .navbar-buttons {
+        margin-left: 100px;
+    }
+}
+
 @media(max-width: 768px) {
     .navbar-buttons {
         display: none;

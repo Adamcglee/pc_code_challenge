@@ -2,8 +2,6 @@
   padding: 20px 0;
   cursor: pointer;
   width: 240px;
-  height: 18px;
-  vertical-align: middle;
 }
 
 svg {
@@ -15,13 +13,11 @@ svg {
 @media (max-width: 1440px) {
     .pc-logo {
         width: 200px;
-        height: 15px;
       }
 }
 
 @media (max-width: 768px) {
     .pc-logo {
         width: 220px;
-        height: 15px;
       }
 }
