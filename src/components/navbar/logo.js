@@ -4,8 +4,8 @@ import './logo.css'
 const Logo = () => {
   return (
     <div className="pc-logo">
-      <svg>
-        <svg viewbox="0 0 240 18">
+      <a href="https://www.personalcapital.com/">
+        <svg viewBox="0 0 240 18">
           <title>Personal Capital Logo</title>
           <g>
             <path d="m 58.49 3.85 h -0.2 a 15.34 15.34 0 0 0 -4.29 -0.85 c -1.59 0 -2.32 0.59 -2.32 1.5 c 0 2.91 7.63 2.12 7.63 8 c 0 3.52 -2.73 5.36 -7.15 5.36 a 14.08 14.08 0 0 1 -4.85 -0.8 v -3.16 h 0.17 a 17 17 0 0 0 4.76 1 c 1.66 0 2.62 -0.64 2.62 -1.74 c 0 -3.14 -7.63 -2.5 -7.63 -8.11 c 0 -3.21 2.53 -5 6.7 -5 a 15.45 15.45 0 0 1 4.55 0.69 Z" />
@@ -25,7 +25,7 @@ const Logo = () => {
             <path d="m 229.28 0 v 17.91 h 10.72 v -3.39 h -6.46 v -14.52 Z" />
           </g>
         </svg>
-      </svg>
+      </a>
     </div>
   );
 };

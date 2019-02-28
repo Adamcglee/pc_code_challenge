@@ -7,7 +7,7 @@ import CarouselSection from './components/carousel_section/carousel_section';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div id="App">
        <NavBar />
        <HeroSection />
        <CarouselSection />

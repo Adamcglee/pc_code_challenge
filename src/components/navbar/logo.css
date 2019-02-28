@@ -1,5 +1,19 @@
 .pc-logo {
-    fill: #fff;
-    padding: 24px 0;
-    cursor: pointer;
+  padding: 24px 0;
+  cursor: pointer;
+  width: 240px;
+  height: 18px;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+  fill: #fff;
+}
+
+@media (max-width: 1440px) {
+    .pc-logo {
+        width: 200px;
+        height: 15px;
+      }
 }
