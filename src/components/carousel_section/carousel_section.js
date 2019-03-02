@@ -46,13 +46,24 @@ class CarouselSection extends Component {
     };
   }
 
-  componentDidMount() {
+  handleResize = () => {
     if (window.innerWidth <= 768) {
       this.setState({ isMobile: true })
     } else {
       this.setState({ isMobile: false })
-    }
   }
+};
+
+  componentDidMount() {
+    this.handleResize();
+    window.addEventListener('resize', this.handleResize)
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.handleResize)
+  }
+
+  
 
   nextSlide = () => {
     this.setState({ currentIndex: this.state.currentIndex + 1 });
